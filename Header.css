@@ -1,0 +1,207 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 8px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    height: 60px;
+    width: 200px;
+}
+
+.hamburger-button{
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 500px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 13px;
+    background-color: white;
+    border:none;
+    
+}
+
+.hamburger-button:hover{
+    background-color: rgb(237, 236, 236);
+}
+
+.hamburger-menu{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    padding-top: 6px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: centers;
+    flex: 1;
+
+}
+
+.search-button{
+    width: 70px;
+    height: 55px;
+    border: none;
+    margin-right: -28px;
+    border-radius: 50px;
+    
+}
+
+.search-div{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.search-div:hover{
+    background-color: rgb(168, 166, 166);
+}
+
+.search{
+    width: 20px;
+    margin-top: 5px;
+
+}
+
+.searchbar{
+    height: 55px;
+    flex: 1;
+    border: none;
+    background-color: buttonface;
+    max-width: 600px;
+    outline:none;
+    width: 0;
+    font-size: 18px;
+}
+
+.searchbar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-inline: 2px;
+    margin-top: 10px;
+}
+
+.freqency-button{
+    width: 90px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    margin-left: -50px;
+}
+
+.frequency-div{
+    width: 35px;
+    height: 35px;
+    margin-left: 45px;
+    border-radius: 20px;
+}
+
+.frequency-div:hover{
+    background-color: rgb(168, 166, 166);
+}
+
+.frequency{
+    margin-top: 7px;
+    width: 20px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding-left: 2px;
+    padding-right: 4px;
+    justify-content: space-between;
+}
+
+.help-div{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding-left: 5px;
+    padding-top:5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.help-div:hover{
+    background-color:rgb(211, 210, 210);
+}
+
+.help{
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+.setting-div{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding-left: 5px;
+    padding-top:5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.setting-div:hover{
+    background-color:rgb(211, 210, 210);
+}
+
+.setting{
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+
+.google-apps{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    
+}
+
+.gmail-app-div{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding-left: 3px;
+    padding-top: 3px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.gmail-app-div:hover{
+    background-color:rgb(211, 210, 210);
+}
+
+.profile-div{
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.profile-div:hover{
+    background-color:rgb(211, 210, 210);
+}
+
+.profile{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+}
