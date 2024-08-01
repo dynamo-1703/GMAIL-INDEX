@@ -1,4 +1,10 @@
 body{
+    padding: 0;
     margin: 0;
-    padding-bottom: 10000px;
+    font-family: roboto,arial;
+}
+
+.banner{
+    height: 100vh;
+    position: relative;
 }

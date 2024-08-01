@@ -1,211 +1,170 @@
 .header{
+    position: absolute;
     display: flex;
-    justify-content: space-between;
-    height: 60px;
-    padding: 8px;
-    position: fixed;
-    left: 0;
-    right: 0;
     top: 0;
+    left: 0;
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .left-section{
     display: flex;
+    text-align: center;
     align-items: center;
-    padding-right: 30px;
-    height: 60px;
-    width: 200px;
+   min-width:  230px;
+    padding-left: 20px;
+    height: 64px;
 }
 
-.hamburger-button{
-    margin-left: 4px;
-    margin-right: 4px;
-    border-radius: 500px;
-    padding-left: 13px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 13px;
-    background-color: white;
-    border:none;
-    
-}
-
-.hamburger-button:hover{
-    background-color: rgb(237, 236, 236);
-}
-
-.hamburger-menu{
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
-    padding-top: 6px;
-}
-
-.middle-section{
+.hamburger-div{
+    width:36px;
+    height: 36px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    align-items: centers;
-    flex: 1;
-
+    color: #5f6368;
+    cursor: pointer;
+    margin-right: 10px;
+    
 }
 
-.search-button{
-    width: 70px;
-    height: 55px;
-    border: none;
-    margin-right: -28px;
-    border-radius: 50px;
-    
+.hamburger-div:hover{
+    background-color:rgb(211, 202, 202);
+}
+.hamburger{
+    height: 25px;
+}
+
+.gmail-logo{
+    cursor: pointer;
+}
+
+.middle-sec{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.search-div-div{
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background-color: buttonface;
+    cursor: pointer;
+    display: flex;
+    width: 40px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 .search-div{
-    width: 30px;
+    width:30px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
 }
 
 .search-div:hover{
-    background-color: rgb(168, 166, 166);
+    background-color:rgb(211, 202, 202);
 }
 
 .search{
-    width: 20px;
-    margin-top: 5px;
-
+    height: 20px;
 }
 
-.searchbar{
-    height: 55px;
-    flex: 1;
-    border: none;
+.search-bar{
+    height: 75%;
     background-color: buttonface;
-    max-width: 600px;
-    outline:none;
-    width: 0;
-    font-size: 18px;
-}
-
-.searchbar::placeholder{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    padding-inline: 2px;
-    margin-top: 10px;
-}
-
-.freqency-button{
-    width: 90px;
-    height: 55px;
     border: none;
-    border-radius: 50px;
-    margin-left: -50px;
+    outline: none;
+    flex:.7 ;
+    min-width: 384px;
+    font-size:17px;
+}
+
+.search-bar::placeholder{
+    font-size:17px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;  /* Remove default appearance */
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background: url(../ICONS/cross.png) no-repeat center;
+    background-size: contain;
+}
+
+input[type="search"]::-webkit-search-cancel-button:hover{
+    background-color:rgb(211, 202, 202);
+    border-radius: 50%;
+}
+
+
+.frequency-div-div{
+    height: 48px;
+    background-color: buttonface;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top-right-radius: 42%;
+    border-bottom-right-radius: 42%;
 }
 
 .frequency-div{
-    width: 35px;
-    height: 35px;
-    margin-left: 45px;
-    border-radius: 20px;
+    margin-right: 10px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
 }
 
 .frequency-div:hover{
-    background-color: rgb(168, 166, 166);
+    background-color:rgb(211, 202, 202) ;
 }
 
 .frequency{
-    margin-top: 7px;
-    width: 20px;
+    height: 22px;
 }
 
 .right-section{
     display: flex;
-    align-items: center;
-    width: 150px;
-    padding-left: 2px;
-    padding-right: 4px;
+    min-width: 165px; 
     justify-content: space-between;
+    align-items: center;  
+
 }
 
-.help-div{
-    width: 30px;
-    height: 30px;
-    margin: 0;
-    padding-left: 5px;
-    padding-top:5px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color .2s;
-}
-
-.help-div:hover{
-    background-color:rgb(211, 210, 210);
-}
-
-.help{
-    border-radius: 50px;
-    height: 35px;
-    width: 35px;
-}
-
-.setting-div{
-    width: 30px;
-    height: 30px;
-    margin: 0;
-    padding-left: 5px;
-    padding-top:5px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color .2s;
-}
-
-.setting-div:hover{
-    background-color:rgb(211, 210, 210);
-}
-
-.setting{
-    border-radius: 50px;
-    height: 35px;
-    width: 35px;
-}
-
-
-.google-apps{
+.right-section img {
     height: 25px;
-    width: 25px;
-    cursor: pointer;
-    
+    border-radius: 50%;
 }
 
-.gmail-app-div{
-    width: 30px;
+.right-section div{
+    width:30px;
     height: 30px;
-    margin: 0;
-    padding-left: 3px;
-    padding-top: 3px;
-    border-radius: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     cursor: pointer;
-    transition: background-color .2s;
+    margin-right: 10px;
 }
 
-.gmail-app-div:hover{
-    background-color:rgb(211, 210, 210);
-}
-
-.profile-div{
-    width: 35px;
-    height: 35px;
-    margin: 0;
-    padding-left: 5px;
-    padding-top: 5px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color .2s;
-}
-
-.profile-div:hover{
-    background-color:rgb(211, 210, 210);
+.right-section div:hover{
+    background-color: rgb(211, 202, 202)  ;
 }
 
 .profile{
-    border-radius: 50px;
     height: 30px;
-    width: 30px;
+
 }

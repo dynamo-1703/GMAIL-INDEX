@@ -3,63 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gmail</title>
+    <title>Gmail-index</title>
 </head>
+
+
+<link rel="stylesheet" href="styles/Header.css">
+
 <body>
-    <link rel="stylesheet"  href="styles/general.css">
-    <link rel="stylesheet"  href="styles/Header.css">
-    <link rel="stylesheet"  href="styles/Sidebar.css">
-    <link rel="stylesheet"  href="styles/compose.css">
+    <div class="banner">
+        <div class="header">
+            <div class="left-section">
+                <div class="hamburger-div">
+                    <img src="ICONS/hamburger-menu.svg" class="hamburger">
+                </div>
+                
+                <img src="ICONS/gmail-logo.png" class="gmail-logo">
+            </div>
 
-    <div class="header">
-        <div class="left-section">
-            <button class="hamburger-button">
-                    <img src="ICONS/hamburger-menu.svg" class="hamburger-menu">
-            </button>      
-            <img src="ICONS/gmail-logo.png" style="cursor: pointer;">
-        </div>
-        <div class="middle-section">
-                <button class="search-button">
-                    <div class="search-div">
-                        <img src="ICONS/search.svg" class="search">
-                    </div>  
-               </button>          
-                <input type="search" placeholder="Search mail" class="searchbar">
-                <button class="freqency-button">
+            <div class="middle-sec">
+                <div class="search-div-div">
+                  <div class="search-div">
+                      <img src="ICONS/search.svg" class="search">
+                  </div>   
+                </div>
+                
+                <input type="search" placeholder="Search mail" class="search-bar">
+                <div class="frequency-div-div">
                     <div class="frequency-div">
-                        <img src="ICONS/tune_gm_grey_24dp.png" class="frequency">
+                       <img src="ICONS/tune_gm_grey_24dp.png" class="frequency">
                     </div>
-                    
-                </button>
-            
-        </div>
+                </div>
+                
+            </div>
 
+            <div class="right-section">
+                <div>
+                    <img src="ICONS/help.svg">
+                </div>
 
-        <div class="right-section">
-            <div class="help-div">
-                <img src="ICONS/help.svg">
-            </div>
-            <div class="setting-div">
-                <img src="ICONS/settings_24px.svg">
-            </div>
-            <div class="gmail-app-div">
-                <img src="ICONS/gmail-apps.svg" class="google-apps">
-            </div>
-            <div class="profile-div">
-                <img src="ICONS/profile.jpg" class="profile">
+                <div>
+                    <img src="ICONS/settings.png">
+                </div>
+
+                <div>
+                    <img src="ICONS/gmail-apps.svg">
+                </div>
+
+                <div style="height: 35px; width: 35px; border-radius: 50%; ">
+                    <img src="ICONS/profile.jpg" style="height: 30px;">
+                </div>
             </div>
             
         </div>
     </div>
-
-
-    <div class="compose-div">
-        <button class="compose-button">
-            <div class="compose-image-div">
-                <img src="ICONS/compose.png" class="compose-image">
-            </div>
-            Compose
-        </button>
-    </div>
+    
 </body>
 </html>
