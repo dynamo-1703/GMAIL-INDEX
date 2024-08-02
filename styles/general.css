@@ -5,6 +5,8 @@ body{
 }
 
 .banner{
-    height: 200vh;
+    height: 100vh;
     position: relative;
+    background-color: #f6f8fc;
+    display: flex;
 }

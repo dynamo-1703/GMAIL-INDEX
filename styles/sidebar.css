@@ -3,6 +3,8 @@
     bottom: 0;
     width: 265px;
     top: 64px;
+    background-color: aqua;
+    z-index: 2;
 }
 
 .sidebar-div{

@@ -1,0 +1,78 @@
+.mail-box{
+    background-color:violet;
+    position: fixed;
+    top: 64px;
+    left: 265px;
+    width: 80%;
+    height: 88%;
+    min-width: 300px;
+    z-index: 5;
+    border-radius: 10px;
+    display: flex;
+}
+
+.mail-box-header{
+    width: 100%;
+    background-color: aquamarine;
+    height: 48px;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-left-section{
+    background-color: blueviolet;
+    flex-direction: row;
+    display: flex;
+    width: 150px;
+    align-items: center;
+}
+
+.checkbox-div{
+    width: 24px;
+    height: 26px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
+.checkbox-div:hover{
+    background-color:rgb(237, 230, 230);
+}
+
+.checkbox{
+    height: 19px;
+    width: 19px;
+}
+
+.down-cross-div{
+    height: 26px;
+    width: 5px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+.down-cross-div:hover{
+    background-color:rgb(237, 230, 230) ;
+}
+
+.down-cross{
+    height: 20px;
+    width: 20px;
+}
+
+.reload-div{
+    margin-left:40px ;
+    height: 25px;
+    width: 26px;
+    padding-top: 5px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.reload-div:hover{
+    background-color: rgb(237, 230, 230) ;
+}
+
+
