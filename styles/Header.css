@@ -1,18 +1,19 @@
 .header{
-    position: absolute;
+    position: fixed;
     display: flex;
     top: 0;
     left: 0;
     height: 64px;
     width: 100%;
     justify-content: space-between;
+    transition: 0.7ms;
 }
 
 .left-section{
     display: flex;
     text-align: center;
     align-items: center;
-   min-width:  230px;
+   min-width:  245px;
     padding-left: 20px;
     height: 64px;
 }
@@ -82,8 +83,8 @@
     background-color: buttonface;
     border: none;
     outline: none;
-    flex:.7 ;
-    min-width: 384px;
+    flex:.6 ;
+    min-width: 250px;
     font-size:17px;
 }
 
