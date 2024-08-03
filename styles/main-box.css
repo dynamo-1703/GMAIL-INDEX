@@ -3,23 +3,25 @@
     position: fixed;
     top: 64px;
     left: 265px;
-    width: 80%;
-    height: 88%;
-    min-width: 300px;
+    bottom: 18px;
+    right: 11px;
     z-index: 5;
     border-radius: 10px;
     display: flex;
+    min-width: 692px;
 }
 
 .mail-box-header{
-    width: 100%;
+    right: 11px;
+    left: 265px;
+    position: fixed;
     background-color: aquamarine;
     height: 48px;
     display: flex;
-    width: 100%;
     border-radius: 10px;
     flex-direction: row;
     justify-content: space-between;
+    min-width: 692px;
 }
 
 .header-left-section{
@@ -49,8 +51,9 @@
 .down-cross-div{
     height: 26px;
     width: 5px;
-    padding-right: 10px;
+    padding-right: 15px;
     border-radius: 2px;
+    text-align: center;
 }
 
 .down-cross-div:hover{
@@ -75,4 +78,64 @@
     background-color: rgb(237, 230, 230) ;
 }
 
+.header-blank-space{
+    height: 48px;
+    flex: 1;
+    background-color: darkblue;
+    width: 0;
+}
 
+.header-right-section{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    background-color: blueviolet;
+}
+
+.text{
+    font-size:12px;
+    font-weight: 550;
+    padding:12px;
+    transition: .15s;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+
+.text:hover{
+    background-color: rgb(237, 230, 230);
+}
+
+.left-arrow-div{
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+.left-arrow-div:hover{
+    background-color: rgb(237, 230, 230);
+}
+
+.left-arrow{
+    height: 22px;
+}
+
+.right-arrow-div{
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.right-arrow-div:hover{
+    background-color: rgb(237, 230, 230);
+}
+
+.right-arrow{
+    height: 22px;
+}
+
+.keyboard-div{
+    border-radius: 5px;
+    display: flex;
+}
+
+.keyboard-div:hover{
+    background-color:rgb(237, 230, 230) ;
+}
