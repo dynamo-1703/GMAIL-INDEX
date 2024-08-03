@@ -10,3 +10,29 @@ body{
     background-color: #f6f8fc;
     display: flex;
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:white;
+}
+
+::-webkit-scrollbar:hover{
+    background-color: buttonface;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: rgb(237, 230, 230) ;
+    border-radius: 5px;
+}
+
+@media(max-width:770px){
+
+    .mail-box{
+        left: 5px;
+    }
+
+    .mail-box-header{
+        left: 5px;
+    }
+}
