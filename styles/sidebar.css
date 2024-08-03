@@ -3,7 +3,6 @@
     bottom: 0;
     width: 265px;
     top: 64px;
-    background-color: aqua;
     z-index: 2;
 }
 
@@ -68,4 +67,14 @@
     height: 20px;
     padding-left: 25px;
     padding-right: 20px;
+}
+
+@media(max-width:770px){
+    .sidebar{
+        display: none;
+    }
+
+    .mail-box{
+        left: 5px;
+    }
 }
